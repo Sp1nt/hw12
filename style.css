@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    background-color: #029e9c;
+}
+a,img{
+    display: block;
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+h2{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.title{
+    padding: 15px;
+    background-color: #008a8a;
+}
+.container{
+    margin-left: 25px;
+    display: flex;
+}
+.main{
+    padding-top: 20px;
+    overflow: auto;
+}
+.content{
+    padding: 20px;
+    max-height: 775px;
+    min-width: 450px;
+    overflow: auto;
+    border-radius: 5px;
+    background-color: #dcdcdc;
+}
+.content:not(:last-child) {
+    margin-right: 25px;
+}
+
+.content-item{
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+}
+.content-item p{
+    letter-spacing: 1.5px;
+}
+
+.content-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+.content-flex{
+    display: flex;
+    margin-top: 20px;
+}
+.icon{
+   display: flex;
+   font-weight: bold;
+   align-items: center;
+}
+.icon:not(:last-child) {
+    margin-right: 15px;
+}
+.icon-link{
+    margin-right: 8px;
+}
+.icon-link img{
+    width: 19px;
+}
+.icon-text{
+    font-size: 13px;
+}
+.avatar{
+    margin-left: auto;
+}
+.icon-avatar img{
+    width: 35px;
+}
